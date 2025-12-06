@@ -5,9 +5,7 @@ while True:
     print()
 
     num1 = float(input("Enter the first number: "))
-    num2 = float(input("Enter the second number: "))
-
-    print(f"You entered: {num1} {num2}")
+    print()
 
     operator = input("Enter an operation (+, -, *, /, **): ")
     print(f"You chose: {operator}")
@@ -20,6 +18,11 @@ while True:
         operator = input("Enter an operation (+, -, *, /, **): ")
         print(f"You chose: {operator}")
         print()
+
+    num2 = float(input("Enter the second number: "))
+    print()
+
+    print(f"You entered: {num1} {operator} {num2}")
 
     if operator == "+":
         result = num1 + num2
